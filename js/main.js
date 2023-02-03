@@ -38,7 +38,7 @@ function countdown() {
 let i = setInterval(countdown, 1000);
 countdown();
 
-/*function countdown() {
+function countdown() {
   document.getElementById('title').innerText='NEW YEAR COUNT DOWN'
   var countDownDate = new Date("2022  Feb 01 00:00:00").getTime();
   var sayTime = new Date("2021 Dec 31 23:59:49").getTime();
@@ -81,4 +81,4 @@ countdown();
 }
 
 countdown();
-*/
+
