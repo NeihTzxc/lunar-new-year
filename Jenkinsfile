@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                ls
+                sh ls
             }
         }
         stage('Test') {
@@ -16,7 +16,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                cat /etc/os-release
+                sh cat /etc/os-release
             }
         }
     }
